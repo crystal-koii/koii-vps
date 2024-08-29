@@ -1,5 +1,10 @@
 # koii-vps
 
+# Hardware requirements
+Minimal Setup: A system with a 1+ GHz processor, 2 GB of RAM, and 10 GB of SSD storage meets the minimum requirements. Ensure a stable internet connection and use a 64-bit Linux distribution like Ubuntu 24.04 LTS for running the Koii Node.
+
+Recommended Setup: For running multiple tasks, it's recommended to use a system with a 2+ GHz multi-core processor, 8 GB of RAM, and 30 GB of SSD storage. Ensure a stable internet connection with at least 10 Mbps upload/download speeds, and use a 64-bit Linux distribution like Ubuntu 24.04 LTS for optimal performance.
+
 # To run Koii Node on a VPS overview
 
 0. Have a VPS that has enough memory + cpu
@@ -33,3 +38,4 @@ https://www.koii.network/docs/develop/command-line-tool/create-task-cli/install
 Only commands you'll need:
 1.Claim Reward
 2.Withdraw Staked Funds from Task
+
