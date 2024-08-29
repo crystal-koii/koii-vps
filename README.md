@@ -36,6 +36,9 @@ https://www.koii.network/docs/develop/command-line-tool/create-task-cli/install
 ```npx @_koii/create-task-cli@latest```
 
 Only commands you'll need:
-1.Claim Reward
-2.Withdraw Staked Funds from Task
+1.Claim Reward (If you have rewards)
+2.Withdraw Staked Funds from Task (If you don't want to run the task anymore)
+
+
+NOTE: docker install doesn't work...
 
