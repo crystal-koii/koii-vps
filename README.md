@@ -21,7 +21,7 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
 7. Enjoy!
 
 # Steps you need to do, prompted in script:
-1. When koii-cli is installed it will ask you if you updated the path, just copy what is printed in terminal and paste it in. Then rerun the script.
+1. When koii-cli is installed it will ask you if you updated the path, just copy the line starting with PATH that is printed in your terminal and paste it in. Then rerun the script.
     ```
     EXAMPLE - Please use what is in your terminal
     Please update your PATH environment variable to include the koii programs:
