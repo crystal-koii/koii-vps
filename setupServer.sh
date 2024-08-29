@@ -66,9 +66,6 @@ fi
 # Step 7: Verify Koii CLI installation
 koii --version
 
-# Step 8: Install the Koii Create Task CLI globally
-npm install -g @_koii/create-task-cli
-
 # Step 9: Create a new Koii wallet (skip if already exists)
 if [ ! -f "$HOME/.config/koii/id.json" ]; then
     koii-keygen new --outfile ~/.config/koii/id.json

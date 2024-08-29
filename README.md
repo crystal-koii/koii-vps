@@ -24,3 +24,12 @@
     ```
 2. When the public key and seed phrase are printed, save them you'll need them later. 
 3. When prompted: "Please take a moment to fill your new wallet with enough koii to run the tasks." You need to copy the public key and use Finnie to fund your wallet before pressing y to continue.
+
+
+# To claim rewards etc:
+https://www.koii.network/docs/develop/command-line-tool/create-task-cli/install
+```npx @_koii/create-task-cli@latest```
+
+Only commands you'll need:
+1.Claim Reward
+2.Withdraw Staked Funds from Task
