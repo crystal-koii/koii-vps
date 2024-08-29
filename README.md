@@ -18,7 +18,7 @@
 # Steps you need to do, prompted in script:
 1. When koii-cli is installed it will ask you if you updated the path, just copy what is printed in terminal and paste it in. Then rerun the script.
     ```
-    EXAMPLE
+    EXAMPLE - Please use what is in your terminal
     Please update your PATH environment variable to include the koii programs:
         PATH="/home/ubuntu/.local/share/koii/install/active_release/bin:$PATH"
     ```
