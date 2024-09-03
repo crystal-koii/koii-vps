@@ -117,7 +117,7 @@ fi
 
 # Step 12: Run Docker Compose (warn if services already running)
 echo "Running docker compose..."
-if docker-compose ps | grep -q "task_node"; then
+if docker compose ps | grep -q "task_node"; then
     echo "Services already running. Re-running Docker Compose may restart them."
     read -p "Do you want to continue? (y/n): " -n 1 -r
     echo

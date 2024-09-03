@@ -5,6 +5,8 @@ Minimal Setup: A system with a 1+ GHz processor, 2 GB of RAM, and 10 GB of SSD s
 
 Recommended Setup: For running multiple tasks, it's recommended to use a system with a 2+ GHz multi-core processor, 8 GB of RAM, and 30 GB of SSD storage. Ensure a stable internet connection with at least 10 Mbps upload/download speeds, and use a 64-bit Linux distribution like Ubuntu 24.04 LTS for optimal performance.
 
+# Important this script is still being worked on, it doesn't work flawlessly. You will need to do some steps manually and restart the terminal.
+
 # To run Koii Node on a VPS overview
 
 0. Have a VPS that has enough memory + cpu
@@ -32,6 +34,15 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
 2. When the public key and seed phrase are printed, save them you'll need them later. 
 3. When prompted: "Please take a moment to fill your new wallet with enough koii to run the tasks." You need to copy the public key and use Finnie to fund your wallet before pressing y to continue.
 
+
+# If you have problem:
+1. check that you did manual steps correctly
+2. If it says "Invalid Wallet Path" then update the wallet path:
+```
+export KOII_WALLET_PATH="$HOME/.config/koii/id.json"
+source ~/.bashrc
+```
+3. With docker install and koii cli install after updating path variables you may need to restart the terminal. 
 
 # To claim rewards etc:
 https://www.koii.network/docs/develop/command-line-tool/create-task-cli/install
