@@ -37,11 +37,6 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
 
 # If you have problem:
 1. check that you did manual steps correctly
-2. If it says "Invalid Wallet Path" then update the wallet path:
-```
-export KOII_WALLET_PATH="$HOME/.config/koii/id.json"
-source ~/.bashrc
-```
 3. With docker install and koii cli install after updating path variables you may need to restart the terminal. 
 
 # To claim rewards etc:
