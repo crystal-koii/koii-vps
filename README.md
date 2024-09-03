@@ -16,9 +16,11 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
     chmod +x setupServer.sh
     sudo ./setupServer.sh
     ```
-5. Follow along with script
-6. Check that it's running 
-7. Enjoy!
+5. Read through the script comments first to understand what will happen.
+6. Follow along with script
+7. Do manual steps and rerun the script at certain points. 
+8. Check that it's running 
+9. Enjoy!
 
 # Steps you need to do, prompted in script:
 1. When koii-cli is installed it will ask you if you updated the path, just copy the line starting with PATH that is printed in your terminal and paste it in. Then rerun the script.
