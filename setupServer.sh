@@ -101,6 +101,10 @@ run_docker_compose() {
 
     # Check if the service is running
     docker logs -f --tail 10 task_node
+
+    echo "Congrats your vps node is running"
+    echo "To view logs run command: docker logs -f --tail 10 task_node"
+    echo "To stop run command: docker stop task_node"
 }
 
 # Prompt the user for which step to start at
