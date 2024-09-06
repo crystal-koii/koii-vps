@@ -32,7 +32,7 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
         PATH="/home/ubuntu/.local/share/koii/install/active_release/bin:$PATH"
     ```
 2. When the public key and seed phrase are printed, save them you'll need them later. 
-3. When prompted: "Please take a moment to fill your new wallet with enough koii to run the tasks." You need to copy the public key and use Finnie to fund your wallet before pressing y to continue.
+3. When prompted: "Please take a moment to fill your new wallet with enough koii to run the tasks." You need to copy the public key and use Finnie to fund your wallet before the next step.
 
 
 # If you have problem:

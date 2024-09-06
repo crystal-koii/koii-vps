@@ -86,21 +86,21 @@ install_koii() {
 # Function to run Docker Compose
 run_docker_compose() {
     echo "Running docker compose..."
-    if sudo docker compose ps | grep -q "task_node"; then
+    if docker compose ps | grep -q "task_node"; then
         echo "Services already running. Re-running Docker Compose may restart them."
         read -p "Do you want to continue? (y/n): " -n 1 -r
         echo
         if [[ ! $REPLY =~ ^[Yy]$ ]]; then
             echo "Skipping Docker Compose step."
         else
-            sudo docker compose up -d
+            docker compose up -d
         fi
     else
-        sudo docker compose up -d
+        docker compose up -d
     fi
 
     # Check if the service is running
-    sudo docker logs -f --tail 10 task_node
+    docker logs -f --tail 10 task_node
 }
 
 # Prompt the user for which step to start at
