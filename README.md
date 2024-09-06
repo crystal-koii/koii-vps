@@ -16,7 +16,7 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
 4. Make script executable and run it.
     ```
     chmod +x setupServer.sh
-    sudo ./setupServer.sh
+    ./setupServer.sh
     ```
 5. Read through the script comments first to understand what will happen.
 6. Follow along with script
@@ -36,7 +36,7 @@ Recommended Setup: For running multiple tasks, it's recommended to use a system 
 
 
 # If you have problem:
-1. check that you did manual steps correctly
+1. Check that you did manual steps correctly
 3. With docker install and koii cli install after updating path variables you may need to restart the terminal. 
 
 # To claim rewards etc:
